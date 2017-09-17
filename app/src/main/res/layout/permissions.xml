@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+   >
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check for Permission"
+        android:layout_marginBottom="112dp"
+        android:layout_above="@+id/request"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request For Permission"
+        android:layout_marginBottom="163dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
